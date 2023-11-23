@@ -1,6 +1,7 @@
 {
   "name": "personal-blog",
   "version": "0.1.0",
+  "homepage": "https://sergeykan.me/",
   "private": true,
   "scripts": {
     "dev": "next dev",
