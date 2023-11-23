@@ -1,11 +1,7 @@
 'use client'
 import Image from 'next/image'
-import { Button } from "@/components/ui/button"
 
 import { FaLinkedin, FaTelegram, FaGithub, FaYoutube } from "react-icons/fa";
-import Typewriter from 'typewriter-effect';
-
-
 
 export default function Home() {
   return (
