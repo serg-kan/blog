@@ -18,10 +18,10 @@ export default function Home() {
                 style={{objectFit: "cover"}}
               />
         </div>
-        <div className="flex-col space-y-4 content-center	">
-          <h1 className="text-2xl md:text-5xl font-extrabold tracking-tight">
-            Hi. I am Sergey Kan
-          </h1>
+        <div className="flex-col justify-center space-y-4 content-center">
+          <div className="text-2xl md:text-5xl font-extrabold w-fit mx-auto">
+            <h1>Hi. I am Sergey Kan</h1>
+          </div>
 
           <div className="leading-7 lg:text-xl">
             <p>Product Manager, ex-web dev, dad</p>
