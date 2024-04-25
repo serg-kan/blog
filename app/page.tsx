@@ -1,7 +1,13 @@
-'use client'
 import Image from 'next/image'
 
 import { FaLinkedin, FaTelegram, FaGithub, FaYoutube } from "react-icons/fa";
+
+
+export async function generateMetadata({params}: {params: {id: string}}) {
+  return {
+    title: "Sergey Kan - Product Manager"
+  }
+}
 
 export default function Home() {
   return (
